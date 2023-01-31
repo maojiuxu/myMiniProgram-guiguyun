@@ -16,6 +16,14 @@ Page({
       swiperImgUrl: result.banners
     })
   },
+  // 2、获取推荐歌单数据
+  async getRecommendMusicList(){
+    let res = await request({url: '/personalized', data: {limit: 10}});
+    // console.log(res);
+    this.setData({
+      RecommendMusicList: res.result
+    })
+  },
 
 
   /**
@@ -23,6 +31,7 @@ Page({
    */
   data: {
     swiperImgUrl: [], // 顶部轮播图请求回来的url数据
+    RecommendMusicList: [],  // 推荐歌单数据
   },
 
   /**
@@ -31,6 +40,8 @@ Page({
   onLoad(options) {
     // 调用获取顶部轮播图的数据
     this.getSwiperImgUrl();
+    // 调用获取推荐歌单的数据
+    this.getRecommendMusicList();
   },
 
   /**

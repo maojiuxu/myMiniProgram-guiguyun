@@ -69,5 +69,10 @@
   -webkit-line-clamp: 2;
 }
 
+/* 底部 */
+.home-ranking {
+  margin-top: 60rpx;
+}
+
 
 

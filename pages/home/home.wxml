@@ -48,7 +48,8 @@
   </view>
 
   <!-- 底部的榜单 -->
-  <view>
-    
+  <view class="home-ranking">
+    <!-- 上部分 -->
+    <RecommendAndRanking title="排行榜" subTitle="热歌风向标"></RecommendAndRanking>
   </view>
 </view>

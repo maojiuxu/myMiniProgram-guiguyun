@@ -1,0 +1,8 @@
+<!--components/RecommendAndRanking/RecommendAndRanking.wxml-->
+<view class="recommendMusicTop">
+      <text class="recmdMusicTop">{{title}}</text>
+      <view class="recmdMusicBtm">
+        <text>{{subTitle}}</text>
+        <text>查看更多</text>
+      </view>
+    </view>

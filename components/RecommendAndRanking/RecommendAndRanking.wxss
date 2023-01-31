@@ -1,0 +1,21 @@
+.recommendMusicTop {
+  width: 100%;
+  height: 150rpx;
+}
+.recommendMusicTop .recmdMusicTop {
+  color: #666;
+}
+.recommendMusicTop .recmdMusicBtm {
+  margin-top: 30rpx;
+  height: 52rpx;
+}
+.recommendMusicTop .recmdMusicBtm text:first-child {
+  line-height: 52rpx;
+}
+.recommendMusicTop .recmdMusicBtm text:last-child {
+  float: right;
+  border: 2rpx solid black;
+  border-radius: 30rpx;
+  font-size: 28rpx;
+  padding: 10rpx 20rpx;
+}

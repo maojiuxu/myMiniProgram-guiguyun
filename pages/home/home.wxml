@@ -35,8 +35,16 @@
   </view>
 
   <!-- 中下部分精心推荐 -->
-  <view>
-    
+  <view class="home-recommendMusic">
+    <!-- 上部分 -->
+    <RecommendAndRanking title="推荐歌曲" subTitle="为您精心推荐"></RecommendAndRanking>
+    <!-- 下部分 -->
+    <scroll-view class="recommendMusicBtm">
+      <view class="recommendMusicBtm-item">
+        <image src=""/>
+        <text></text>
+      </view>
+    </scroll-view>
   </view>
 
   <!-- 底部的榜单 -->

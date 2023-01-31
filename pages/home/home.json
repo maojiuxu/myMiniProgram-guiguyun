@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "RecommendAndRanking": "../../components/RecommendAndRanking/RecommendAndRanking"
+  }
 }

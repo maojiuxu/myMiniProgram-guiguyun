@@ -36,3 +36,10 @@
   margin-bottom: 20rpx;
 }
 
+/* 中下部分 */
+.home-recommendMusic {
+  padding: 0 20rpx;
+}
+
+
+

@@ -1,1 +1,14 @@
-/* pages/home/home.wxss */
+.home {
+  width: 100%;
+  height: 100%;
+}
+
+/* 头部轮播图 */
+.home-swiper {
+  width: 100%;
+}
+.home-swiper .swiper .swiper-item image {
+  width: 100%;
+  height: 300rpx;
+}
+

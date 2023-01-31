@@ -1,18 +1,36 @@
 // pages/home/home.js
+// 导入请求方法
+import request from '../../utils/request'
+
 Page({
+
+  /**
+   * 调用的方法
+   */
+  // 1、顶部轮播图的数据
+  async getSwiperImgUrl(){
+    let result = await request({url: '/banner', data: {type: 2}});
+    // console.log(result);
+    // 将请求回来的数据存到data中
+    this.setData({
+      swiperImgUrl: result.banners
+    })
+  },
+
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    swiperImgUrl: [], // 顶部轮播图请求回来的url数据
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    // 调用获取顶部轮播图的数据
+    this.getSwiperImgUrl();
   },
 
   /**

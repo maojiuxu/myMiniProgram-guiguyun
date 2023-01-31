@@ -1,2 +1,27 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view class="home">
+  <!-- 上部分轮播图 -->
+  <view class="home-swiper">
+    <swiper class="swiper" autoplay indicator-dots indicator-color="white" indicator-active-color="#D43BF5" interval="2000" circular>
+      <swiper-item class="swiper-item" wx:for="{{swiperImgUrl}}" wx:key="bannerId">
+        <image src="{{item.pic}}"/>
+      </swiper-item>
+    </swiper>
+    
+  </view>
+
+  <!-- 中上部分每日推荐 -->
+  <view>
+    
+  </view>
+
+  <!-- 中下部分精心推荐 -->
+  <view>
+    
+  </view>
+
+  <!-- 底部的榜单 -->
+  <view>
+    
+  </view>
+</view>

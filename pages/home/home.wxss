@@ -12,3 +12,27 @@
   height: 300rpx;
 }
 
+/* 中上部分 */
+.home-dailyRecom {
+  width: 100%;
+  height: 180rpx;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20rpx;
+}
+.home-dailyRecom .dailyRecom-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.home-dailyRecom .dailyRecom-item text:first-child {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background-color: #D43BF5;
+  font-size: 50rpx;
+  color: white;
+  line-height: 100rpx;
+  margin-bottom: 20rpx;
+}
+

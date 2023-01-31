@@ -1,4 +1,7 @@
 /**app.wxss**/
+/* 全局导入图标 */
+@import './static/iconfont/iconfont.wxss';
+
 page {
   width: 100%;
   height: 100%;
